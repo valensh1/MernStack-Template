@@ -23,7 +23,6 @@ db.on('open', () => {
 //? MIDDLEWARE
 app.use(express.urlencoded({ extended: true })); // Middleware - so we can use req.body otherwise Express can't read what's in the body of our POST request. This Middleware parses data from forms in the x-www-form-urlencoded format
 app.use(express.json()); // Middleware - for parsing data coming in the body of the POST request as json format
-// app.use(express.static(path.resolve(__dirname, './client/build')));
 
 app.get('/players', async (req, res) => {
   try {
