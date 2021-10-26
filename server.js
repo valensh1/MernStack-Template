@@ -28,23 +28,6 @@ app.use(express.json()); // Middleware - for parsing data coming in the body of 
 //? API Routes
 app.use('/api/players', require('./controllers/playerController.js')); // Every time this api/players path is hit require this file
 
-// app.get('/players', async (req, res) => {
-//   try {
-//     const rosters = await Player.find({});
-//     res.send(rosters);
-//   } catch (error) {
-//     console.log(error);
-//   }
-// });
-
-// app.get('/', async (req, res) => {
-//   try {
-//     res.send('You hit the everything route');
-//   } catch (error) {
-//     console.log(error);
-//   }
-// });
-
 //? DEPLOYMENT CODE
 if (process.env.NODE_ENV === 'production') {
   // When .env file has NODE_ENV=production in it run this code below (we must put this in our .env file for when deploying)

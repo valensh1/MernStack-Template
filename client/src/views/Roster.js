@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 const Roster = () => {
   const [players, setPlayers] = useState([]);
+
   useEffect(() => {
     (async () => {
       try {
@@ -14,14 +15,15 @@ const Roster = () => {
       }
     })();
   }, []);
+
   return (
     <div>
-      {players.map(player => {
+      {players?.map(player => {
         return (
           <div>
-            <h1 key={player._id}>{player.firstName}</h1>
-            <h1 key={player._id}>{player.lastName}</h1>
-            <h1 key={player._id}>{player.number}</h1>
+            <h1 key={player._id}>{player?.firstName}</h1>
+            <h1 key={player._id}>{player?.lastName}</h1>
+            <h1 key={player._id}>{player?.number}</h1>
           </div>
         );
       })}
