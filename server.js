@@ -26,22 +26,24 @@ app.use(express.urlencoded({ extended: true })); // Middleware - so we can use r
 app.use(express.json()); // Middleware - for parsing data coming in the body of the POST request as json format
 
 //? API Routes
-app.get('/players', async (req, res) => {
-  try {
-    const rosters = await Player.find({});
-    res.send(rosters);
-  } catch (error) {
-    console.log(error);
-  }
-});
+app.use('/api/players', require('./controllers/playerController.js')); // Every time this api/players path is hit require this file
 
-app.get('/', async (req, res) => {
-  try {
-    res.send('You hit the everything route');
-  } catch (error) {
-    console.log(error);
-  }
-});
+// app.get('/players', async (req, res) => {
+//   try {
+//     const rosters = await Player.find({});
+//     res.send(rosters);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// });
+
+// app.get('/', async (req, res) => {
+//   try {
+//     res.send('You hit the everything route');
+//   } catch (error) {
+//     console.log(error);
+//   }
+// });
 
 //? DEPLOYMENT CODE
 if (process.env.NODE_ENV === 'production') {
@@ -53,8 +55,6 @@ if (process.env.NODE_ENV === 'production') {
     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
   });
 }
-
-app.use('/api/players', require('./controllers/playerController.js')); // Every time this api/players path is hit require this file
 
 app.listen(PORT, () => {
   // Code to notify you that app is running on PORT 5000 on local computer.
