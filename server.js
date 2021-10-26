@@ -25,8 +25,8 @@ db.on('open', () => {
 app.use(express.urlencoded({ extended: true })); // Middleware - so we can use req.body otherwise Express can't read what's in the body of our POST request. This Middleware parses data from forms in the x-www-form-urlencoded format
 app.use(express.json()); // Middleware - for parsing data coming in the body of the POST request as json format
 
-//? API Routes
-app.use('/api/players', require('./controllers/playerController.js')); // Every time this api/players path is hit require this file
+//? API ROUTES - Routes To Controller
+app.use('/api/players', require('./controllers/playerController.js')); // Every time this api/players path is hit we will require the playerController.js file which holds our routes related to players
 
 //? DEPLOYMENT CODE
 if (process.env.NODE_ENV === 'production') {
