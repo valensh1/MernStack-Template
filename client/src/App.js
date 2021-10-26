@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './views/Home.js';
+import Roster from './views/Roster.js';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           Learn React
         </a>
         <h1>Hey Dude Bro this is a test to make sure React is working!!!</h1>
+        <Home />
+        <Roster />
       </header>
     </div>
   );
