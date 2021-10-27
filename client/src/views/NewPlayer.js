@@ -21,20 +21,21 @@ const NewPlayer = event => {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
-      });
+      })
+        //? RESETTING OF FORM INPUT FIELDS TO BLANK AFTER FORM SUBMISSION
+        .then(
+          setFormData({
+            firstName: '',
+            lastName: '',
+            number: '',
+            team: '',
+            position: '',
+          })
+        )
+        //? REDIRECTION TO ROUTE AFTER FORM SUBMISSION
+        .then(history.push(`/players`)); //! ENTER ROUTE HERE YOU WANT TO GO TO AFTER FORM SUBMISSION)
     } catch (error) {
       console.log(error);
-    } finally {
-      //? RESETTING OF FORM INPUT FIELDS TO BLANK AFTER FORM SUBMISSION
-      setFormData({
-        firstName: '',
-        lastName: '',
-        number: '',
-        team: '',
-        position: '',
-      });
-      //? REDIRECTION TO ROUTE AFTER FORM SUBMISSION
-      history.push(`/players`); //! ENTER ROUTE HERE YOU WANT TO GO TO AFTER FORM SUBMISSION
     }
   };
 
