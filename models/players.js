@@ -14,16 +14,27 @@ const playerSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  team: {
+    type: String,
+    required: true,
+  },
+  position: {
+    type: String,
+    required: true,
+  },
 });
 
 //? TELLING MONGOOSE YOU WANT TO CREATE A MODEL USING OUR SCHEMA
 const Player = mongoose.model('Player', playerSchema); // Player is our model name and it MUST BE SINGULAR WITH AN UPPERCASE FIRST LETTER! mongoDB will then lowercase this model name and make it plural so it will change the name to ---> players
 
-//? CREATION OF FIRST SET OF DATA FOR DATABASE
+//? CREATION OF FIRST SET OF DATA FOR MongoDB DATABASE
 // const player1 = Player.create({ // Creation of a player1 and saved to database. Want to comment this out otherwise it will keep saving data to mongoDB each time you save this file and you will have duplicates in your MongoDB
 //   firstName: 'Shaun',
 //   lastName: 'Valentine',
 //   number: 23,
 // });
+
+//? DELETION OF THE 1ST RECORD MONGOOSE FINDS IN MongoDB WITH THE SPECIFIED CRITERIA
+Player.findOneAndDelete({ firstName: 'Don' }).then(data => console.log(data));
 
 module.exports = Player;

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Roster = () => {
   const [players, setPlayers] = useState([]);
@@ -6,11 +7,10 @@ const Roster = () => {
   useEffect(() => {
     (async () => {
       try {
-        console.log('Useeffect is running!!!');
         const response = await fetch('/api/players');
         const data = await response.json();
-        console.log(data);
         await setPlayers(data);
+        console.log(data);
       } catch (err) {
         console.error(err);
       }
@@ -19,16 +19,20 @@ const Roster = () => {
 
   return (
     <div>
-      <h1>Player Roster</h1>
+      <h1>Roster of Players</h1>
       {players?.map(player => {
         return (
           <div key={player?._id}>
-            <h3>{player?.firstName}</h3>
-            <h3>{player?.lastName}</h3>
+            <h3>{`${player?.firstName} ${player?.lastName}`}</h3>
             <h3>{player?.number}</h3>
+            <h4>{player?.team}</h4>
+            <h5>{player?.position}</h5>
           </div>
         );
       })}
+      <button>
+        <Link to="/players/new">NEW PLAYER</Link>
+      </button>
     </div>
   );
 };
