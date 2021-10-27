@@ -1,6 +1,6 @@
 //? POST REQUEST - FORM TO INPUT NEW PLAYER
 import { useState } from 'react';
-import { Link, useHistory } from 'react-router-dom'; //! Must import useHistory in order to have React redirect to different pages outside the Router Link found on App.js
+import { useHistory } from 'react-router-dom'; //! Must import useHistory in order to have React redirect to different pages outside the Router Link found on App.js
 
 const NewPlayer = event => {
   const [formData, setFormData] = useState({
@@ -25,7 +25,7 @@ const NewPlayer = event => {
     } catch (error) {
       console.log(error);
     } finally {
-      //? Reset the form input fields to blank
+      //? RESETTING OF FORM INPUT FIELDS TO BLANK AFTER FORM SUBMISSION
       setFormData({
         firstName: '',
         lastName: '',

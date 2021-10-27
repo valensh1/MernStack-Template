@@ -7,6 +7,7 @@ const Roster = () => {
   useEffect(() => {
     (async () => {
       try {
+        //? GET REQUEST - INDEX ROUTE SHOWING ALL PLAYERS
         const response = await fetch('/api/players');
         const data = await response.json();
         await setPlayers(data);

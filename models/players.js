@@ -35,6 +35,6 @@ const Player = mongoose.model('Player', playerSchema); // Player is our model na
 // });
 
 //? DELETION OF THE 1ST RECORD MONGOOSE FINDS IN MongoDB WITH THE SPECIFIED CRITERIA
-Player.findOneAndDelete({ firstName: 'Don' }).then(data => console.log(data));
+// Player.findOneAndDelete({ firstName: 'Don' }).then(data => console.log(data));
 
 module.exports = Player;
