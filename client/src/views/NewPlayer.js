@@ -36,7 +36,7 @@ const NewPlayer = event => {
         .then(
           setTimeout(() => {
             history.push(`/players`); //! ENTER ROUTE HERE YOU WANT TO GO TO AFTER FORM SUBMISSION)
-          }, 2000)
+          }, 2000) // Timeout of 2 seconds needed to allow for adequate time for data to be posted and then upon redirect the players.js useEffect hook has enough time to retrieve all the data including the newly posted data. It seemed to be working fine without setTimeout on local host but when deploying there seemed to be a problem so this is to fix that delay in the get request from players.js file getting the data including the newly posted player.
         );
     } catch (error) {
       console.log(error);

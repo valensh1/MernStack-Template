@@ -1,0 +1,26 @@
+//? Default global settings
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+//? Global CSS Variables
+$color-primary: orangered;
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* Everything is based upon 10px with this. 10px / 16px = .625. With this 1rem will = 10px. */
+}
+
+h1 {
+  color: red; // Test to ensure sass is working
+  font-weight: 900; // Test to ensure sass is working
+}
+
+h3 {
+  color: purple; // Test to ensure sass is working
+  font-weight: 700; // Test to ensure sass is working
+}

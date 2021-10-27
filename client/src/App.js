@@ -1,4 +1,5 @@
 import './App.css';
+import './sass/main.scss';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; //! MUST IMPORT BrowserRouter (changing name to just Router is optional) and Route and Switch
 import Home from './views/Home.js';
 import Roster from './views/Roster.js';
