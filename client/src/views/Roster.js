@@ -19,7 +19,7 @@ const Roster = () => {
   }, []);
 
   return (
-    <div>
+    <div className>
       <h1>Roster of Players</h1>
       {players?.map(player => {
         return (
