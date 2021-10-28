@@ -1,8 +1,171 @@
-h1 {
-  color: red; // test data
+//? GLOBAL BUTTONS
+.btn {
+  background-color: orangered;
+
+  &-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover {
+      color: black;
+    }
+  }
 }
 
-h3 {
-  color: purple; // test data
-  font-weight: 900; // test data
+//? NAVBAR STYLING
+.navbar {
+  background-color: black;
+
+  .ul-container {
+    width: 100%;
+  }
+  .navbar--ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 0.5%;
+
+    .navbar--ul-link {
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: white;
+    }
+  }
+}
+
+//? CREATE & EDIT PAGES - NewPlayer.js and EditPlayer.js contain the same formatting
+.player-container {
+  position: relative;
+  left: 25%;
+  top: 200px;
+  width: 50vw;
+  height: 35vh;
+  border: 5px solid orangered;
+
+  h1 {
+    color: orangered;
+    text-align: center;
+    margin: 2rem 0rem;
+  }
+
+  .btn {
+    position: relative;
+    left: 45%;
+    top: 5rem;
+  }
+  .player__form {
+    .player__form-name {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      .player__form-labelContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 0rem 5rem;
+      }
+
+      input {
+        width: 120%;
+      }
+    }
+    .player__form-labelContainer-number {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 2rem;
+
+      input {
+        width: 5%;
+      }
+    }
+    .player__form-labelContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 2.5rem;
+
+      div {
+        margin: 0rem 3rem;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+
+  .btn-submit {
+    position: absolute;
+    top: 100%;
+    height: fit-content;
+    color: white;
+    font-weight: 600;
+    left: 40%;
+
+    &:hover {
+      color: black;
+    }
+  }
+
+  .btn-cancel {
+    position: absolute;
+    top: 100%;
+    left: 55%;
+  }
+}
+
+//? INDEX PAGE - Roster.js
+.index-container {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    color: orangered;
+    margin-top: 2rem;
+  }
+
+  .btn-index {
+    position: relative;
+    left: 40%;
+    width: 10%;
+    margin-top: 2rem;
+  }
+
+  tr {
+    border-bottom: 1px solid #dedede;
+  }
+}
+
+//? SHOW PAGE - ShowPlayer.js
+.container__single-player {
+  .table__single-player {
+    margin-left: 40%;
+    margin-top: 10%;
+    th {
+      padding: 0rem 1rem;
+      background-color: black;
+      color: white;
+    }
+    td {
+      padding: 0rem 1rem;
+    }
+  }
+
+  .btn {
+    position: relative;
+    left: 41%;
+    background-color: orangered;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+
+    &-link {
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+    }
+  }
 }

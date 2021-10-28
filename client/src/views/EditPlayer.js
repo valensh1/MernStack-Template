@@ -1,24 +1,32 @@
-//? POST REQUEST - FORM TO INPUT NEW PLAYER
-import { useState } from 'react';
-import { useHistory, Link } from 'react-router-dom'; //! Must import useHistory in order to have React redirect to different pages outside the Router Link found on App.js
+import { useEffect, useState } from 'react';
+import { useParams, useHistory, Link } from 'react-router-dom'; //! Must import useHistory in order to have React redirect to different pages outside the Router Link found on App.js. In this case we are redirecting back to the /players index route upon deleting a player from this show page
 
-const NewPlayer = event => {
-  const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    number: '',
-    team: '',
-    position: '',
-  });
-
+const EditPlayer = () => {
+  const { id } = useParams();
+  console.log(useParams);
   const history = useHistory(); //! MUST ACTIVATE USE HISTORY HERE TO REDIRECT TO DIFFERENT PAGE AFTER FORM SUBMISSION. WON'T WORK INSIDE THE handleSubmit FUNCTION SO MUST BE HERE
+
+  const [formData, setFormData] = useState([]);
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const response = await fetch(`/api/players/${id}`);
+        const data = await response.json();
+        console.log(data);
+        setFormData(data);
+      } catch (error) {
+        console.log(error);
+      }
+    })();
+  }, []);
 
   const handleSubmit = event => {
     try {
-      //? POST REQUEST - no need for async with post request
+      //? PUT REQUEST - no need for async with put request
       event.preventDefault();
-      fetch('/api/players', {
-        method: 'POST',
+      fetch(`/api/players/edit/${id}`, {
+        method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
       })
@@ -45,7 +53,7 @@ const NewPlayer = event => {
 
   return (
     <div className="player-container">
-      <h1>ENTER NEW PLAYER</h1>
+      <h1>EDIT PLAYER</h1>
       <form className="player__form" onSubmit={handleSubmit}>
         <div className="player__form-name">
           <div className="player__form-labelContainer">
@@ -128,5 +136,4 @@ const NewPlayer = event => {
     </div>
   );
 };
-
-export default NewPlayer;
+export default EditPlayer;

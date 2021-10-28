@@ -19,20 +19,42 @@ const Roster = () => {
   }, []);
 
   return (
-    <div className>
+    <div className="index-container">
       <h1>Roster of Players</h1>
-      {players?.map(player => {
-        return (
-          <div key={player?._id}>
-            <h3>{`${player?.firstName} ${player?.lastName}`}</h3>
-            <h3>{player?.number}</h3>
-            <h4>{player?.team}</h4>
-            <h5>{player?.position}</h5>
-          </div>
-        );
-      })}
-      <button>
-        <Link to="/players/new">NEW PLAYER</Link>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Number</th>
+            <th>Team</th>
+            <th>Position</th>
+          </tr>
+        </thead>
+        {players?.map(player => {
+          return (
+            <tbody key={player?._id}>
+              <tr className="index-container__player">
+                <td>
+                  <Link
+                    className="index-container__player-link"
+                    to={`/players/${player?._id}`}
+                  >
+                    {`${player?.firstName} ${player?.lastName}`}
+                  </Link>
+                </td>
+                <td>{player?.number}</td>
+                <td>{player?.team}</td>
+                <td>{player?.position}</td>
+              </tr>
+            </tbody>
+          );
+        })}
+      </table>
+
+      <button className="btn btn-index">
+        <Link className="btn-link" to="/players/new">
+          NEW PLAYER
+        </Link>
       </button>
     </div>
   );

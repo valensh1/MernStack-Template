@@ -5,6 +5,8 @@ import Home from './views/Home.js';
 import Roster from './views/Roster.js';
 import NewPlayer from './views/NewPlayer.js';
 import Navbar from './components/Navbar.js';
+import ShowPlayer from './views/ShowPlayer.js';
+import EditPlayer from './views/EditPlayer.js';
 
 function App() {
   return (
@@ -12,12 +14,24 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
+          {/* //? INDEX ROUTE - SHOW ALL PLAYERS */}
           <Route exact path="/players">
             <Roster />
           </Route>
 
+          {/* //? CREATE ROUTE - NEW PLAYER */}
           <Route exact path="/players/new">
             <NewPlayer />
+          </Route>
+
+          {/* //? EDIT ROUTE - EDIT INDIVIDUAL PLAYER */}
+          <Route exact path="/players/edit/:id">
+            <EditPlayer />
+          </Route>
+
+          {/* //? SHOW ROUTE - INDIVIDUAL PLAYER */}
+          <Route exact path="/players/:id">
+            <ShowPlayer />
           </Route>
 
           <Route exact path="/">
