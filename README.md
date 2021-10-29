@@ -51,31 +51,35 @@ Important Note - This starter template application was not built out of the box 
    <br>
    <b>npm install -g npm</b>
    <br>
-   This will allow you the ability to install different add-ons and middleware that were used in application since most developers don't upload these to GitHub because there are tons of files and it can take up a bunch of space. They can be easily downloaded quickly from npm within seconds by following the next step.
+
+   - This will allow you the ability to install different add-ons and middleware that were used in application since most developers don't upload these to GitHub because there are tons of files and it can take up a bunch of space. They can be easily downloaded quickly from npm within seconds by following the next step.
 
 2. In Terminal type in the following: <b>npm i</b>
    <br>
-   We have just now completed downloading add-ons and middleware needed for our back-end server in our application to work. Now we have to repeat this very same process for our front-end of our application under the client folder.
+
+   - We have just now completed downloading add-ons and middleware needed for our back-end server in our application to work. Now we have to repeat this very same process for our front-end of our application under the client folder.
 
 3. Navigate to your client folder in Terminal.
    <br>
    Type in the following: <b>npm i</b>
    <br>
-   We have just now completed downloading add-ons and middleware needed for the front-end of our application to work.
+   - We have just now completed downloading add-ons and middleware needed for the front-end of our application to work.
 
 ## MongoDB Account Set-up
 
 1. Before running this basic MERN starter template application you need to set-up a mongoDB account. Please refer to the following links on how to open up an account. <i>One requirement is you set-up a MongoDB Atlas account which is the cloud database.</i>
 
    <br>
-
    MongoDB website - https://www.mongodb.com/try
    <br>
    YouTube video (good video on how to set this up) - https://youtu.be/rPqRyYJmx2g
 
-2. Once your MongoDB account is set-up with Atlas go inside your Cluster and click on the Collections link in the Cluster navigation bar. See screenshot below.
+2. Once your MongoDB account is set-up with Atlas go inside your Cluster and click on the Collections link in the Cluster navigation bar and then click on Create Database button. See screenshot below.
 
-![git clone](/img/screenShots__ReadMe/GitClone.png?raw=true 'git clone')
+![create database](/img/screenShots__ReadMe/Create_Database.png?raw=true 'create database')
+
+3. Enter your Database name and Collection Name. See screenshot below.
+   ![database and collection name](/img/screenShots__ReadMe/Database_Collection_Name.png?raw=true 'database and collection name')
 
 ## Project Status:
 
