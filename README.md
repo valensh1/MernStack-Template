@@ -79,7 +79,7 @@ Important Note - This starter template application was not built out of the box 
 ![create database](/img/screenShots\_\_ReadMe/Create_Database.png?raw=true =100x200 'create database')
 
 3. Enter your Database name and Collection Name. See screenshot below.
-   <img src="/img/screenShots__ReadMe/DownloadZip.png" width="500" height="600">
+   <img src="/img/screenShots__ReadMe/DownloadZip.png" width="500" height="650">
 
 ## Project Status:
 
