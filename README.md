@@ -76,7 +76,7 @@ Important Note - This starter template application was not built out of the box 
 
 2. Once your MongoDB account is set-up with Atlas go inside your Cluster and click on the Collections link in the Cluster navigation bar and then click on Create Database button. See screenshot below.
 
-<img src="/img/screenShots\_\_ReadMe/Create_Database.png" width="700" height="500")
+<img src="/img/screenShots\_\_ReadMe/Create_Database.png" width="700" height="500")>
 
 3. Enter your Database name and Collection Name. See screenshot below.
    <img src="/img/screenShots__ReadMe/DownloadZip.png" width="700" height="500">
