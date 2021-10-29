@@ -31,9 +31,15 @@ Important Note - This starter template application was not built out of the box 
 
 ## Downloading From GitHub
 
-1. Navigate to folder in which you would like to save this GitHub repository.
+1. Navigate to folder on your computer in which you would like to save this GitHub repository.
 2. Click on Code button and Download ZIP
    ![download zip](/img/screenShots__ReadMe/DownloadZip.png?raw=true 'download zip')
+
+# OR
+
+3. Click on Code button and select HTTPS and copy the https string and go to Terminal under your project folder and MUST FIRST TYPE IN git clone then https string you copied such as the following:
+   --> git clone https://github.com/valensh1/MernStack-Template.git
+   ![git clone](/img/screenShots__ReadMe/DownloadZip.png?raw=true 'git clone')
 
 ## Project Status:
 
