@@ -27,19 +27,27 @@ Important Note - This starter template application was not built out of the box 
 - Utilizes MVC framework
 - Full CRUD capability
 
-# DIRECTIONS FOR USING THIS STARTER MERN APPLICATION TEMPLATE <font size="1.2rem">
+# DIRECTIONS FOR USING THIS STARTER MERN APPLICATION TEMPLATE <font size="7rem">
 
 ## Downloading From GitHub
 
 1. Navigate to folder on your computer in which you would like to save this GitHub repository.
-2. Click on Code button and Download ZIP
+2. Click on Code button and Download ZIP. Once downloaded copy the downloaded files into your application folder on your computer.
    ![download zip](/img/screenShots__ReadMe/DownloadZip.png?raw=true 'download zip')
 
-# OR
+## OR
 
 3. Click on Code button and select HTTPS and copy the https string and go to Terminal under your project folder and MUST FIRST TYPE IN git clone then https string you copied such as the following:
+   <br>
    --> git clone https://github.com/valensh1/MernStack-Template.git
    ![git clone](/img/screenShots__ReadMe/DownloadZip.png?raw=true 'git clone')
+
+## Installing NPM and Node Modules
+
+1. In Terminal type in the following: npm install -g npm
+   This will allow you the ability to install different add-ons and middleware that were used in application since most developers don't upload these to GitHub because there are tons of files and it can take up a bunch of space. They can be easily downloaded quickly from npm within seconds by following the next step.
+
+2. In Terminal type in the following: npm i OR npm install
 
 ## Project Status:
 
