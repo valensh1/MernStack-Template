@@ -48,6 +48,7 @@ Important Note - This starter template application was not built out of the box 
 ## Installing NPM and Node Modules
 
 1. In Terminal under your root project folder (Mernstack-Template) type in the following:
+   <br>
    <b>npm install -g npm</b>
    <br>
    This will allow you the ability to install different add-ons and middleware that were used in application since most developers don't upload these to GitHub because there are tons of files and it can take up a bunch of space. They can be easily downloaded quickly from npm within seconds by following the next step.
@@ -65,7 +66,9 @@ Important Note - This starter template application was not built out of the box 
 ## MongoDB Account Set-up
 
 1. Before running this basic MERN starter template application you need to set-up a mongoDB account. Please refer to the following links on how to open up an account. <i>One requirement is you set-up a MongoDB Atlas account which is the cloud database.</i>
+
    <br>
+
    MongoDB website - https://www.mongodb.com/try
    <br>
    YouTube video (good video on how to set this up) - https://youtu.be/rPqRyYJmx2g
