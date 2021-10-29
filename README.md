@@ -1,6 +1,6 @@
 # MERN STACK TEMPLATE
 
-# WEBSITE LINK -
+## WEBSITE LINK -
 
 [https://mernstack-template-smv.herokuapp.com/]
 
@@ -27,9 +27,9 @@ Important Note - This starter template application was not built out of the box 
 - Utilizes MVC framework
 - Full CRUD capability
 
-## DIRECTIONS FOR USING THIS STARTER MERN APPLICATION TEMPLATE
+# DIRECTIONS FOR USING THIS STARTER MERN APPLICATION TEMPLATE
 
-# Downloading From GitHub
+## Downloading From GitHub
 
 1. Navigate to folder in which you would like to save this GitHub repository.
 2. Click on Code button and Download ZIP
@@ -37,4 +37,4 @@ Important Note - This starter template application was not built out of the box 
 
 ## Project Status:
 
-This will be an ongoing project for me. I love Wall Street and always had ambitions to create my own stock website where I have everything from planning my next trade by looking at some charts, reading general market news along with news related to the stocks I follow, educational trading videos, and even offering financial advice and integrating the site with various trading platforms such as E-Trade.
+This project will be updated periodically as seen fit to give user the fastest and most efficient experience possible in getting a MERN stack application up and running and deployed on Heroku.
