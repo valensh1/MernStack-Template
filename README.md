@@ -33,7 +33,8 @@ Important Note - This starter template application was not built out of the box 
 
       1. Navigate to folder on your computer in which you would like to save this GitHub repository.
       2. Click on Code button and Download ZIP. Once downloaded copy the downloaded files into your application folder on your computer.
-        ![download zip](/img/screenShots__ReadMe/DownloadZip.png?raw=true 'download zip')
+
+![download zip](/img/screenShots__ReadMe/DownloadZip.png?raw=true 'download zip')
 
       ## OR
 
@@ -41,7 +42,8 @@ Important Note - This starter template application was not built out of the box 
         <br>
         --> git clone https://github.com/valensh1/MernStack-Template.git
         <br>
-        ![git clone](/img/screenShots__ReadMe/DownloadZip.png?raw=true 'git clone')
+
+![git clone](/img/screenShots__ReadMe/DownloadZip.png?raw=true 'git clone')
 
 ## Installing NPM and Node Modules
 
@@ -68,7 +70,8 @@ Important Note - This starter template application was not built out of the box 
       YouTube video (good video on how to set this up) - https://youtu.be/rPqRyYJmx2g
 
     2. Once your MongoDB account is set-up with Atlas and inside your Cluster click on the Collections link in the Cluster navigation bar. See screenshot below.
-      ![git clone](/img/screenShots__ReadMe/DownloadZip.png?raw=true 'git clone')
+
+![git clone](/img/screenShots__ReadMe/DownloadZip.png?raw=true 'git clone')
 
 ## Project Status:
 
