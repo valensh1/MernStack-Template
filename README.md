@@ -27,7 +27,7 @@ Important Note - This starter template application was not built out of the box 
 - Utilizes MVC framework
 - Full CRUD capability
 
-# DIRECTIONS FOR USING THIS STARTER MERN APPLICATION TEMPLATE
+# DIRECTIONS FOR USING THIS STARTER MERN APPLICATION TEMPLATE <font size="1.2rem">
 
 ## Downloading From GitHub
 
