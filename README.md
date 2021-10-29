@@ -40,7 +40,7 @@ Important Note - This starter template application was not built out of the box 
 
 3. Click on Code button and select HTTPS and copy the https string and go to Terminal under your project folder and MUST FIRST TYPE IN git clone then https string you copied such as the following:
    <br>
-   --> git clone https://github.com/valensh1/MernStack-Template.git
+   --> <b>git clone https://github.com/valensh1/MernStack-Template.git</b>
    <br>
 
 ![git clone](/img/screenShots__ReadMe/DownloadZip.png?raw=true 'git clone')
@@ -48,30 +48,31 @@ Important Note - This starter template application was not built out of the box 
 ## Installing NPM and Node Modules
 
 1. In Terminal under your root project folder (Mernstack-Template) type in the following:
-   npm install -g npm
+   <b>npm install -g npm</b>
    <br>
    This will allow you the ability to install different add-ons and middleware that were used in application since most developers don't upload these to GitHub because there are tons of files and it can take up a bunch of space. They can be easily downloaded quickly from npm within seconds by following the next step.
 
-2. In Terminal type in the following: npm i
+2. In Terminal type in the following: <b>npm i</b>
    <br>
    We have just now completed downloading add-ons and middleware needed for our back-end server in our application to work. Now we have to repeat this very same process for our front-end of our application under the client folder.
 
 3. Navigate to your client folder in Terminal.
    <br>
-   Type in the following: npm i
+   Type in the following: <b>npm i</b>
    <br>
    We have just now completed downloading add-ons and middleware needed for the front-end of our application to work.
 
 ## MongoDB Account Set-up
 
-1. Before running this basic MERN starter template application you need to set-up a mongoDB account. Please refer to the following links on how to open up an account. One requirement is you set-up a MongoDB Atlas account which is the cloud database.
+1. Before running this basic MERN starter template application you need to set-up a mongoDB account. Please refer to the following links on how to open up an account. <i>One requirement is you set-up a MongoDB Atlas account which is the cloud database.</i>
    <br>
    MongoDB website - https://www.mongodb.com/try
+   <br>
    YouTube video (good video on how to set this up) - https://youtu.be/rPqRyYJmx2g
 
-2. Once your MongoDB account is set-up with Atlas and inside your Cluster click on the Collections link in the Cluster navigation bar. See screenshot below.
+2. Once your MongoDB account is set-up with Atlas go inside your Cluster and click on the Collections link in the Cluster navigation bar. See screenshot below.
 
-![git clone](/img/screenShots__ReadMe/DownloadZip.png?raw=true 'git clone')
+![git clone](/img/screenShots__ReadMe/GitClone.png?raw=true 'git clone')
 
 ## Project Status:
 
