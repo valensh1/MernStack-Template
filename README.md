@@ -50,7 +50,7 @@ Important Note - This starter template application was not built out of the box 
 - Follow the step-by-step screenshots below for adding a new repository to hold the code for our new MERN Stack application.
   <br>
 
-  ![create repo1](/img/screenShots__ReadMe/GitHub_Create_Repo1.png?raw=true 'create repo1')
+  <kbd>![create repo1](/img/screenShots__ReadMe/GitHub_Create_Repo1.png?raw=true 'create repo1')</kbd>
   <br>
   <br>
   ![create repo2](/img/screenShots__ReadMe/GitHub_Create_Repo2.png?raw=true 'create repo2')
