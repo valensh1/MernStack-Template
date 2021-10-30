@@ -53,15 +53,16 @@ Important Note - This starter template application was not built out of the box 
   <kbd>![create repo1](/img/screenShots__ReadMe/GitHub_Create_Repo1.png?raw=true 'create repo1')</kbd>
   <br>
   <br>
-  ![create repo2](/img/screenShots__ReadMe/GitHub_Create_Repo2.png?raw=true 'create repo2')
+  <kbd>![create repo2](/img/screenShots__ReadMe/GitHub_Create_Repo2.png?raw=true 'create repo2') </kbd>
+
   <br>
   <br>
 
-  ![create repo3](/img/screenShots__ReadMe/Repo3.png?raw=true 'create repo3')
+  <kbd>![create repo3](/img/screenShots__ReadMe/Repo3.png?raw=true 'create repo3')</kbd>
   <br>
   <br>
 
-  ![create repo4](/img/screenShots__ReadMe/Repo4.png?raw=true 'create repo4')
+  <kbd>![create repo4](/img/screenShots__ReadMe/Repo4.png?raw=true 'create repo4')</kbd>
   <br>
 
 ## Installing NPM and Node Modules
@@ -95,11 +96,11 @@ Important Note - This starter template application was not built out of the box 
 
 2. Once your MongoDB account is set-up with Atlas go inside your Cluster and click on the Collections link in the Cluster navigation bar and then click on Create Database button. See screenshot below.
 
-<img src="/img/screenShots__ReadMe/Create_Database.png" width="500" height="400">
+<kbd><img src="/img/screenShots__ReadMe/Create_Database.png" width="500" height="400"></kbd>
 
 <br>
 3. Enter your Database name and Collection Name. See screenshot below.
-   <img src="/img/screenShots__ReadMe/DownloadZip.png" width="700" height="500">
+   <kbd><img src="/img/screenShots__ReadMe/DownloadZip.png" width="700" height="500"></kbd>
 
 ## Mongoose Set-up
 
