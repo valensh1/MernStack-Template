@@ -49,11 +49,11 @@ Important Note - This starter template application was not built out of the box 
 
 1. Follow the step-by-step screenshots below for adding a new repository to hold the code for our new MERN Stack application.
    <br>
-   ![create repo](/img/screenShots__ReadMe/GitHub_Create_Repo3.png?raw=true 'create repo')
+   ![create repo](/img/screenShots__ReadMe/GitHub_Create_Repo1.png?raw=true 'create repo')
    <br>
    ![create repo](/img/screenShots__ReadMe/GitHub_Create_Repo2.png?raw=true 'create repo')
    <br>
-   ![create repo](/img/screenShots__ReadMe/GitHub_Create_Repo1.png?raw=true 'create repo')
+   ![create repo](/img/screenShots__ReadMe/GitHub_Create_Repo3.png?raw=true 'create repo')
 
 2. You will then come to this window (see below).
    <br>
