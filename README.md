@@ -52,19 +52,15 @@ Important Note - This starter template application was not built out of the box 
 
   ![create repo1](/img/screenShots__ReadMe/GitHub_Create_Repo1.png?raw=true 'create repo1')
   <br>
+  <br>
   ![create repo2](/img/screenShots__ReadMe/GitHub_Create_Repo2.png?raw=true 'create repo2')
   <br>
   <br>
-  <br>
-  <br>
-  <br>
+
   ![create repo3](/img/screenShots__ReadMe/Repo3.png?raw=true 'create repo3')
   <br>
   <br>
-  <br>
-  <br>
-  <br>
-  <br>
+
   ![create repo4](/img/screenShots__ReadMe/Repo4.png?raw=true 'create repo4')
   <br>
 
