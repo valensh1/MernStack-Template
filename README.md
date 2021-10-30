@@ -8,7 +8,7 @@
 
 The idea of this project is to design a MERN Stack starter template that has full CRUD capability and contains the necessary code without any special adjustments needed by user to be successfully deployed to Heroku. This starter template has a sports player theme but can be changed to accommodate any theme and data as desireable. Each file contains detailed comments about what each line of code does. In addition, below I am going to give detailed steps on how I created this MERN stack starter template. No step will be skipped!!! The goal is to make this template as dummy proof and easy to understand as possible so that even somebody with no coding experience can simply follow these easy step-by-step instructions below and have a basic full CRUD MERN stack application up and running on Heroku within minutes.
 
-<ins>Important Note</ins> - This starter template application was not built out of the box with responsive design in mind. Due to each user conforming and modifying this template to fit their own needs any responsive design written now would almost certainly need to be adjusted or completely transformed and therefore ultimately I decided to leave it out. This starter template application does however include out of the box basic CSS styling.
+<b><ins>Important Note</ins></b> - This starter template application was not built out of the box with responsive design in mind. Due to each user conforming and modifying this template to fit their own needs any responsive design written now would almost certainly need to be adjusted or completely transformed and therefore ultimately I decided to leave it out. This starter template application does however include out of the box basic CSS styling.
 
 ## Technologies Used:
 
@@ -43,7 +43,7 @@ The idea of this project is to design a MERN Stack starter template that has ful
    --> <b>git clone https://github.com/valensh1/MernStack-Template.git</b>
    <br>
 
-![git clone](/img/screenShots__ReadMe/DownloadZip.png?raw=true 'git clone')
+![git clone](/img/screenShots__ReadMe/GitClone.png?raw=true 'git clone')
 
 ## Create new GitHub Repository
 
