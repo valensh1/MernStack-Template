@@ -44,7 +44,8 @@
   height: 35vh;
   border: 5px solid orangered;
 
-  @media only screen and (max-width: 1280px) {
+  // For Microsoft Surface Pro
+  @media only screen and (max-width: 1900px) {
     height: fit-content;
   }
 
@@ -111,7 +112,8 @@
       color: black;
     }
 
-    @media only screen and (max-width: 1280px) {
+    // For Microsoft Surface Pro
+    @media only screen and (max-width: 1900px) {
       left: 30%;
     }
   }
