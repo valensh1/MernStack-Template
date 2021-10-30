@@ -44,6 +44,10 @@
   height: 35vh;
   border: 5px solid orangered;
 
+  @media only screen and (max-width: 1280px) {
+    height: fit-content;
+  }
+
   h1 {
     color: orangered;
     text-align: center;
@@ -105,6 +109,10 @@
 
     &:hover {
       color: black;
+    }
+
+    @media only screen and (max-width: 1280px) {
+      left: 30%;
     }
   }
 
