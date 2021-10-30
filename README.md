@@ -29,7 +29,7 @@ The idea of this project is to design a MERN Stack starter template that has ful
 
 # DIRECTIONS FOR USING THIS STARTER MERN APPLICATION TEMPLATE
 
-## Downloading From GitHub
+## Downloading Repo From GitHub
 
 1. Navigate to folder on your computer in which you would like to save this GitHub repository.
 2. Click on Code button and Download ZIP. Once downloaded copy the downloaded files into your application folder on your computer.
@@ -45,9 +45,9 @@ The idea of this project is to design a MERN Stack starter template that has ful
 
 ![git clone](/img/screenShots__ReadMe/GitClone.png?raw=true 'git clone')
 
-## Create new GitHub Repository
+## Create new GitHub Repository in Your Own GitHub
 
-- Follow the step-by-step screenshots below for adding a new repository to hold the code for our new MERN Stack application.
+- Follow the step-by-step screenshots below for adding a new repository to hold the code for your new MERN Stack application.
   <br>
   <kbd>![create repo1](/img/screenShots__ReadMe/GitHub_Create_Repo1.png?raw=true 'create repo1')</kbd>
   <br>
@@ -68,18 +68,18 @@ The idea of this project is to design a MERN Stack starter template that has ful
    <b>npm install -g npm</b>
    <br>
 
-   - This will allow you the ability to install different add-ons and middleware that were used in application since most developers don't upload these to GitHub because there are tons of files and it can take up a bunch of space. They can be easily downloaded quickly from npm within seconds by following the next step.
+   - This installs NPM Package Manager on your computer which will allow you the ability to install different add-ons and middleware that were used in application since most developers don't upload these to GitHub because there are tons of files and it can take up a bunch of space. They can be easily downloaded quickly from NPM within seconds by following the next step.
 
 2. In Terminal type in the following: <b>npm i</b>
    <br>
 
-   - We have just now completed downloading add-ons and middleware needed for our back-end server in our application to work. Now we have to repeat this very same process for our front-end of our application under the client folder.
+   - This installs add-ons and middleware needed for our back-end server in our application to work. Now we have to repeat this very same process for our front-end of our application under the client folder.
 
 3. Navigate to your client folder in Terminal.
    <br>
    Type in the following: <b>npm i</b>
    <br>
-   - We have just now completed downloading add-ons and middleware needed for the front-end of our application to work.
+   - This installs add-ons and middleware needed for our front-end React application to work.
 
 ## MongoDB Account Set-up
 
@@ -100,7 +100,32 @@ The idea of this project is to design a MERN Stack starter template that has ful
 
 ## Mongoose Set-up
 
-1.
+- Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js
+  This basically manages the interaction from our server and our MongoDB databse model and retrieves the information from our database and gives it to the server so that the server can serve the client with the relevant information.
+  <br>
+
+1. Go to root project folder (mernstack-template) and right click and add new file. Name the file the following (CANNOT BE ANY DIFFERENT!!!)
+   <br>
+   <b>.env</b>
+   <br>
+
+   - This file is basically a private file that will stay private on our local computer and not be uploaded to our GitHub account because this can hold secret API keys and passwords such as our MongoDB password.
+
+2. Go to your MongoDB Atlas account and follow the series of screenshots below.
+   <br>
+   <kbd>![create repo1](/img/screenShots__ReadMe/Mongoose1.png?raw=true 'create repo1')</kbd>
+   <br>
+   <br>
+   <kbd>![create repo1](/img/screenShots__ReadMe/Mongoose2.png?raw=true 'create repo1')</kbd>
+   <br>
+   <br>
+   <kbd>![create repo1](/img/screenShots__ReadMe/Mongoose3.png?raw=true 'create repo1')</kbd>
+   <br>
+   <br>
+   <kbd>![create repo1](/img/screenShots__ReadMe/Mongoose4.png?raw=true 'create repo1')</kbd>
+   <br>
+   <br>
+   <kbd>![create repo1](/img/screenShots__ReadMe/Mongoose5.png?raw=true 'create repo1')</kbd>
 
 ## Project Status:
 
