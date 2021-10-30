@@ -50,14 +50,23 @@ Important Note - This starter template application was not built out of the box 
 - Follow the step-by-step screenshots below for adding a new repository to hold the code for our new MERN Stack application.
   <br>
 
-1.  ![create repo](/img/screenShots__ReadMe/GitHub_Create_Repo1.png?raw=true 'create repo')
-    <br>
-2.  ![create repo](/img/screenShots__ReadMe/GitHub_Create_Repo2.png?raw=true 'create repo')
-    <br>
-3.  ![create repo](/img/screenShots__ReadMe/GitHub_Create_Repo3.png?raw=true 'create repo')
-    <br>
-4.  ![create repo](/img/screenShots__ReadMe/GitHub_Create_Repo4.png?raw=true 'create repo')
-    <br>
+  ![create repo1](/img/screenShots__ReadMe/GitHub_Create_Repo1.png?raw=true 'create repo1')
+  <br>
+  ![create repo2](/img/screenShots__ReadMe/GitHub_Create_Repo2.png?raw=true 'create repo2')
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  ![create repo3](/img/screenShots__ReadMe/GitHub_Create_Repo3.png?raw=true 'create repo3')
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  ![create repo4](/img/screenShots__ReadMe/GitHub_Create_Repo4.png?raw=true 'create repo4')
+  <br>
 
 ## Installing NPM and Node Modules
 
