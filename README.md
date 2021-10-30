@@ -58,14 +58,14 @@ Important Note - This starter template application was not built out of the box 
   <br>
   <br>
   <br>
-  ![create repo3](/img/screenShots__ReadMe/GitHub_Create_Repo3.png?raw=true 'create repo3')
+  ![create repo3](/img/screenShots__ReadMe/Repo3.png?raw=true 'create repo3')
   <br>
   <br>
   <br>
   <br>
   <br>
   <br>
-  ![create repo4](/img/screenShots__ReadMe/GitHub_Create_Repo4.png?raw=true 'create repo4')
+  ![create repo4](/img/screenShots__ReadMe/Repo4.png?raw=true 'create repo4')
   <br>
 
 ## Installing NPM and Node Modules
