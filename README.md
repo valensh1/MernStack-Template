@@ -106,12 +106,11 @@ The idea of this project is to design a MERN Stack starter template that has ful
 
 1. Go to root project folder (mernstack-template) and right click and add new file. Name the file the following (CANNOT BE ANY DIFFERENT!!!)
    <br>
-   <b>.env</b>
-   <br>
+   <kbd>![create repo1](/img/screenShots__ReadMe/FileStructureWithENV.png?raw=true 'create repo1')</kbd>
 
    - This file is basically a private file that will stay private on our local computer and not be uploaded to our GitHub account because this can hold secret API keys and passwords such as our MongoDB password.
 
-2. Go to your MongoDB Atlas account and follow the series of screenshots below.
+2. Go to your MongoDB Atlas account. Find your database in Atlas (the one you set-up in series of steps under MongoDB Account Set-up above). Follow the series of screenshots below.
    <br>
    <kbd>![create repo1](/img/screenShots__ReadMe/Mongoose1.png?raw=true 'create repo1')</kbd>
    <br>
@@ -122,10 +121,10 @@ The idea of this project is to design a MERN Stack starter template that has ful
    <kbd>![create repo1](/img/screenShots__ReadMe/Mongoose3.png?raw=true 'create repo1')</kbd>
    <br>
    <br>
-   <kbd>![create repo1](/img/screenShots__ReadMe/Mongoose4.png?raw=true 'create repo1')</kbd>
-   <br>
-   <br>
    <kbd>![create repo1](/img/screenShots__ReadMe/Mongoose5.png?raw=true 'create repo1')</kbd>
+   <br>
+   <br>
+   <kbd>![create repo1](/img/screenShots__ReadMe/Mongoose4.png?raw=true 'create repo1')</kbd>
 
 ## Project Status:
 
