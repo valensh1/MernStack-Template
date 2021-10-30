@@ -45,6 +45,25 @@ Important Note - This starter template application was not built out of the box 
 
 ![git clone](/img/screenShots__ReadMe/DownloadZip.png?raw=true 'git clone')
 
+## Create new GitHub Repository
+
+1. Follow the step-by-step screenshots below for adding a new repository to hold the code for our new MERN Stack application.
+   <img src="/img/screenShots__ReadMe/GitHub_Create_Repo1.png" width="500" height="400">
+   <br>
+   <img src="/img/screenShots__ReadMe/GitHub_Create_Repo2.png" width="500" height="400">
+   <br>
+   <img src="/img/screenShots__ReadMe/GitHub_Create_Repo3.png" width="500" height="400">
+
+2. You will then come to this window (see below).
+   <br>
+   In Terminal type in the following commands:
+   _ git add -A
+   _ git commit -m"First commit" <--- You can type any message you want here
+   _ git remote add origin https://github.com/valensh1/test.git <--- Type in whatever string it gives you (see circled in screenshot below)
+   _ git push origin master
+   <br>
+   <img src="/img/screenShots__ReadMe/GitHub_Create_Repo4.png" width="500" height="400">
+
 ## Installing NPM and Node Modules
 
 1. In Terminal under your root project folder (Mernstack-Template) type in the following:
@@ -76,10 +95,15 @@ Important Note - This starter template application was not built out of the box 
 
 2. Once your MongoDB account is set-up with Atlas go inside your Cluster and click on the Collections link in the Cluster navigation bar and then click on Create Database button. See screenshot below.
 
-<img src="/img/screenShots__ReadMe/Create_Database.png" width="700" height="500">
+<img src="/img/screenShots__ReadMe/Create_Database.png" width="500" height="400">
 
+<br>
 3. Enter your Database name and Collection Name. See screenshot below.
    <img src="/img/screenShots__ReadMe/DownloadZip.png" width="700" height="500">
+
+## Mongoose Set-up
+
+1.
 
 ## Project Status:
 
