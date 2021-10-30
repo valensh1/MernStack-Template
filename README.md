@@ -128,7 +128,9 @@ The idea of this project is to design a MERN Stack starter template that has ful
 
 3. Inside your Terminal navigate to your root file in your application (mernstack-application in file structure above) and type in the following:
    <br>
+   <br>
    <b>npm i dotenv</b>
+   <br>
    <br>
    This installs the middleware needed to read from our .env file without exposing our password
 
