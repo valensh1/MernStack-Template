@@ -251,7 +251,7 @@ YOU DON'T NEED TO DO THE STEPS BELOW AS IT IS ALREADY DONE FOR YOU IN THE TEMPLA
     <br>
     This will ensure that when running our application locally that we will be making requests from our front-end on localhost:3000 to our back-end on localhost:5001. If you don't add this any API calls will not successfully communicate with your back-end server. This has nothing to do with successful deployment to Heroku.
 
-## Changing Code
+## Customizing Application / Changing Code
 
 Recommend installing Better Comments VS Code extension for clear visibility on where you need to change code to customize the template to fit your application requirements.
 <br>
