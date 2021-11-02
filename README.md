@@ -166,6 +166,54 @@ The idea of this project is to design a MERN Stack starter template that has ful
 
    - From here you can either EDIT a players information OR DELETE the players information.
 
+## Deploying to Heroku
+
+After you have successfully completed the steps above you are now ready for deployment to Heroku. Follow the steps below.
+
+In Terminal inside your root folder (Mernstack-Template) type in the following:
+
+1.  <b>git add -A</b>
+2.  <b>git commit -m"deployment to Heroku"</b>
+3.  <b>git push origin master</b>
+4.  <b>git push heroku master</b>
+    <br>
+    If trying to do steps 1-3 above and it says working branch tree clean then skip to step 4 and push to Heroku.
+
+YOU DON'T NEED TO DO THE STEPS BELOW AS IT IS ALREADY DONE FOR YOU IN THE TEMPLATE BUT SHOWING HERE FOR WHAT CHANGES NEEDED TO BE MADE FOR SUCCESSFUL DEPLOYMENT TO HEROKU FROM A create-react-app WHICH IS WHAT THIS STARTER TEMPLATE STARTED FROM.
+
+1.  Creation of a Procfile with the following code:
+    <br>
+    <b>web:npm start</b> <--- Tells Heroku what to do immediately upon startup of the application
+
+2.  Added code to server.js file so that our server knows when certain routes are hit that aren't our api/players related routes to serve the front-end with static files (which is what React is composed of). See code below inserted into server.js to make Heroku deployment successful.
+    <br>
+    //? DEPLOYMENT CODE FOR HEROKU - No Need to Modify This Code
+    if (process.env.NODE_ENV === 'production') {
+    // When .env file has NODE_ENV=production in it run this code below (we must put this in our .env file for when deploying)
+    app.use(express.static(path.join(\_\_dirname, '/client/build'))); // When .env file has NODE_ENV=production then look for the static file in the /client/build folder. This folder won't be there until you go into the client folder and run npm run build command in Terminal.
+
+// Code below activates our React front-end. Any routes not shown above in API routes this code will send a file from the /client/build/index.html file which is basically our React front-end files
+app.get('\*', (req, res) => {
+res.sendFile(path.resolve(\_\_dirname, 'client', 'build', 'index.html'));
+});
+}
+
+3. Addition of scripts to our server-side package.json file such as "heroku-postbuild", "client-install", "client-build". Package.json scripts section should look like this:
+   <br>
+   "scripts": {
+   "start": "node server.js",
+   "dev": "nodemon server.js",
+   "heroku-postbuild": "npm run client-install && npm run client-build",
+   "client-install": "cd client && npm install",
+   "client-build": "cd client && npm run build"
+   }
+
+4. An important thing to add to the package.json for the client is to add the following:
+   <br>
+   "proxy": "http://localhost:5001"
+   <br>
+   This will ensure that when running our application locally that we will be making requests from our front-end on localhost:3000 to our back-end on localhost:5001. If you don't add this any API calls will not successfully communicate with your back-end server. This has nothing to do with successful deployment to Heroku.
+
 ## Project Status:
 
 This project will be updated periodically as seen fit to give user the fastest and most efficient experience possible in getting a MERN stack application up and running and deployed on Heroku.
