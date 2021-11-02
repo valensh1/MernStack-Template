@@ -124,7 +124,39 @@ The idea of this project is to design a MERN Stack starter template that has ful
    <kbd>![create repo1](/img/screenShots__ReadMe/Mongoose5.png?raw=true 'create repo1')</kbd>
    <br>
    <br>
-   <kbd>![create repo1](/img/screenShots__ReadMe/Mongoose4.png?raw=true 'create repo1')</kbd>
+
+   # Creation of .env File
+
+   1. Paste string that you copied in step above and paste into .env file. See screenshot below for additional instructions
+      <kbd>![create repo1](/img/screenShots__ReadMe/Mongoose4.png?raw=true 'create repo1')</kbd>
+
+   2. Go into Terminal under root folder (Mernstack-Template) and type in the following:
+      <br>
+      <b>npm i dotenv</b><--- This will ensure that your passcode on your .env file remains secret and won't be shared publicly
+
+## Starting Application On Our Local Computer
+
+1.  In Terminal go to your root folder (Mernstack-Template) and run the following command:
+    <br>
+    <b>npm run dev</b>
+    <br>
+2.  Now go to your client folder in your Terminal and type in the following:
+    <br>
+    <b>npm run start</b>
+    <br>
+    - If you get an error such as this <b><i>'react scripts is not recognized as an internal or external command'</i></b>then inside the client folder in Terminal type in the following to fix:
+      <br>
+      <b>npm install react-scripts --save</b>
+3.  Now you should see a screen like this (see screenshot below)
+    <kbd>![create repo1](/img/screenShots__ReadMe/HomePage.png?raw=true 'create repo1')</kbd>
+
+## Players Page - Entering Data Into Your Database
+
+1. After clicking link in step above you will be taken to the Players page (index show page) which looks like the screen shot below.
+   <kbd>![create repo1](/img/screenShots__ReadMe/PlayersPage.png?raw=true 'create repo1')</kbd>
+
+2. Now you will be taken to a New Player form to enter your first player data into your newly created MongoDB database. Enter the requested information into the form and then click SUBMIT button.
+   <kbd>![create repo1](/img/screenShots__ReadMe/PlayersForm.png?raw=true 'create repo1')</kbd>
 
 ## Project Status:
 
