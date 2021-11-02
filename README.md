@@ -126,14 +126,6 @@ The idea of this project is to design a MERN Stack starter template that has ful
    <br>
    <kbd>![create repo1](/img/screenShots__ReadMe/Mongoose4.png?raw=true 'create repo1')</kbd>
 
-3. Inside your Terminal navigate to your root file in your application (mernstack-application in file structure above) and type in the following:
-   <br>
-   <br>
-   <b>npm i dotenv</b>
-   <br>
-   <br>
-   This installs the middleware needed to read from our .env file without exposing our password
-
 ## Project Status:
 
 This project will be updated periodically as seen fit to give user the fastest and most efficient experience possible in getting a MERN stack application up and running and deployed on Heroku.
