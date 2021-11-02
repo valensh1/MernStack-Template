@@ -96,7 +96,7 @@ The idea of this project is to design a MERN Stack starter template that has ful
 
 <br>
 3. Enter your Database name and Collection Name. See screenshot below.
-   <kbd><img src="/img/screenShots__ReadMe/DownloadZip.png" width="700" height="500"></kbd>
+   <kbd><img src="/img/screenShots__ReadMe/Database_Collection_Name.png" width="700" height="500"></kbd>
 
 ## Mongoose Set-up
 
