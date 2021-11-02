@@ -172,12 +172,34 @@ After you have successfully completed the steps above you are now ready for depl
 
 In Terminal inside your root folder (Mernstack-Template) type in the following:
 
-1.  <b>git add -A</b>
-2.  <b>git commit -m"deployment to Heroku"</b>
-3.  <b>git push origin master</b>
-4.  <b>git push heroku master</b>
-    <br>
-    If trying to do steps 1-3 above and it says working branch tree clean then skip to step 4 and push to Heroku.
+1. Create Heroku account
+   <br>
+   https://www.youtube.com/watch?v=_yK5uTMYM38
+
+2. Install Heroku CLI (command-line interface)
+   <br>
+   https://devcenter.heroku.com/articles/heroku-cli <--- Heroku instructions
+   <br>
+
+   - Basically type the following into your Terminal (in your root Mernstack-Template folder):
+     <br>
+     <b>brew tap heroku/brew && brew install heroku</b> <--- Installs the Heroku CLI using homebrew for IOS
+     <br>
+     <b>heroku login</b> <--- Then follow instructions in Terminal as it will eventually open up a web browser where you will enter your login credentials
+     <br>
+     Now type in <b>heroku create app-name</b> <--- Replace app-name with whatever you want to call your application
+
+3. Before pushing your code to Heroku you must go into Settings inside your application that you created in step above and enter your Config Vars information which comes straight from your .env file
+   <br>
+   <kbd>![create repo1](/img/screenShots__ReadMe/Heroku_Deployment.png?raw=true 'create repo1')</kbd>
+   <br>
+
+4. <b>git add -A</b>
+5. <b>git commit -m"deployment to Heroku"</b>
+6. <b>git push origin master</b>
+7. <b>git push heroku master</b>
+   <br>
+   If trying to do steps 1-3 above and it says working branch tree clean then skip to step 4 and push to Heroku.
 
 YOU DON'T NEED TO DO THE STEPS BELOW AS IT IS ALREADY DONE FOR YOU IN THE TEMPLATE BUT SHOWING HERE FOR WHAT CHANGES NEEDED TO BE MADE FOR SUCCESSFUL DEPLOYMENT TO HEROKU FROM A create-react-app WHICH IS WHAT THIS STARTER TEMPLATE STARTED FROM.
 
