@@ -18,6 +18,6 @@
     "client-install": "cd client && npm install",
     "client-build": "cd client && npm run build"
   },
-  "author": "",
+  "author": "Shaun Valentine",
   "license": "ISC"
 }
