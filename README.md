@@ -211,17 +211,17 @@ YOU DON'T NEED TO DO THE STEPS BELOW AS IT IS ALREADY DONE FOR YOU IN THE TEMPLA
     <br>
     //? DEPLOYMENT CODE FOR HEROKU - No Need to Modify This Code
     <br>
-    if (process.env.NODE_ENV === 'production') {
+    <b>if (process.env.NODE_ENV === 'production') {</b>
     <br>
     // When .env file has NODE_ENV=production in it run this code below (we must put this in our .env file for when deploying)
     <br>
-    app.use(express.static(path.join(\_\_dirname, '/client/build'))); // When .env file has NODE_ENV=production then look for the static file in the /client/build folder. This folder won't be there until you go into the client folder and run npm run build command in Terminal.
+    <b>app.use(express.static(path.join(\_\_dirname, '/client/build')))</b>; // When .env file has NODE_ENV=production then look for the static file in the /client/build folder. This folder won't be there until you go into the client folder and run npm run build command in Terminal.
     <br>
     // Code below activates our React front-end. Any routes not shown above in API routes this code will send a file from the /client/build/index.html file which is basically our React front-end files
     <br>
-    app.get('\*', (req, res) => {
+    <b>app.get('\*', (req, res) => {</b>
     <br>
-    res.sendFile(path.resolve(\_\_dirname, 'client', 'build', 'index.html'));
+    <b>res.sendFile(path.resolve(\_\_dirname, 'client', 'build', 'index.html'));</b>
     <br>
     });
     <br>
@@ -229,6 +229,7 @@ YOU DON'T NEED TO DO THE STEPS BELOW AS IT IS ALREADY DONE FOR YOU IN THE TEMPLA
 
 3.  Addition of scripts to our server-side package.json file such as "heroku-postbuild", "client-install", "client-build". Package.json scripts section should look like this:
     <br>
+    <b>
     "scripts": {
     <br>
     "start": "node server.js",
@@ -240,12 +241,13 @@ YOU DON'T NEED TO DO THE STEPS BELOW AS IT IS ALREADY DONE FOR YOU IN THE TEMPLA
     "client-install": "cd client && npm install",
     <br>
     "client-build": "cd client && npm run build"
+    </b>
     <br>
     }
 
 4.  An important thing to add to the package.json for the client is to add the following:
     <br>
-    "proxy": "http://localhost:5001"
+    <b>"proxy": "http://localhost:5001"</b>
     <br>
     This will ensure that when running our application locally that we will be making requests from our front-end on localhost:3000 to our back-end on localhost:5001. If you don't add this any API calls will not successfully communicate with your back-end server. This has nothing to do with successful deployment to Heroku.
 
