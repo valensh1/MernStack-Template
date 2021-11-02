@@ -95,7 +95,9 @@
       }
 
       @media only screen and (max-width: 1900px) {
-        width: 10%;
+        width: 200%;
+        position: relative;
+        left: -50%;
       }
     }
     .player__form-labelContainer {
@@ -104,6 +106,7 @@
       flex-direction: row;
       justify-content: center;
       margin-top: 2.5rem;
+      margin-bottom: 2.5rem;
 
       div {
         margin: 0rem 3rem;
@@ -128,6 +131,7 @@
     // For Microsoft Surface Pro
     @media only screen and (max-width: 1900px) {
       left: 30%;
+      top: 105%;
     }
   }
 
@@ -135,6 +139,10 @@
     position: absolute;
     top: 100%;
     left: 55%;
+
+    @media only screen and (max-width: 1900px) {
+      top: 105%;
+    }
   }
 }
 
