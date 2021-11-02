@@ -144,7 +144,7 @@ The idea of this project is to design a MERN Stack starter template that has ful
     <br>
     <b>npm run start</b>
     <br>
-    - If you get an error such as this <b><i>'react scripts is not recognized as an internal or external command'</i></b>then inside the client folder in Terminal type in the following to fix:
+    - If you get an error such as this <b><i>'react scripts is not recognized as an internal or external command'</i></b> then inside the client folder in your Terminal type in the following to fix:
       <br>
       <b>npm install react-scripts --save</b>
 3.  Now you should see a screen like this (see screenshot below)
@@ -155,8 +155,16 @@ The idea of this project is to design a MERN Stack starter template that has ful
 1. After clicking link in step above you will be taken to the Players page (index show page) which looks like the screen shot below.
    <kbd>![create repo1](/img/screenShots__ReadMe/PlayersPage.png?raw=true 'create repo1')</kbd>
 
-2. Now you will be taken to a New Player form to enter your first player data into your newly created MongoDB database. Enter the requested information into the form and then click SUBMIT button.
+2. Now you will be taken to a New Player form to enter your first player data into your newly created MongoDB database. Enter the requested information into the form and then click the SUBMIT button.
    <kbd>![create repo1](/img/screenShots__ReadMe/PlayersForm.png?raw=true 'create repo1')</kbd>
+
+3. You will be taken back to the Players Page (index show page) and you will now see your player that you added in step above.
+   <kbd>![create repo1](/img/screenShots__ReadMe/PlayerPageAfterPlayerAdded.png?raw=true 'create repo1')</kbd>
+
+4. To see an individual players information click on the players name and this will take you to the players individual page (individual show page)
+   <kbd>![create repo1](/img/screenShots__ReadMe/IndividualShowPage.png?raw=true 'create repo1')</kbd>
+
+   - From here you can either EDIT a players information OR DELETE the players information.
 
 ## Project Status:
 

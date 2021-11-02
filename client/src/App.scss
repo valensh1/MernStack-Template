@@ -1,3 +1,6 @@
+//! ALL RED COMMENTED SECTIONS ARE PLACES WHERE POTENTIAL CHANGES ARE NEEDED BASED UPON YOUR APPLICATION
+//! Make sure to update your CSS styling for wherever you changed players from the className to something that fit your application
+
 //? GLOBAL BUTTONS
 .btn {
   background-color: orangered;
@@ -37,6 +40,7 @@
 
 //? CREATE & EDIT PAGES - NewPlayer.js and EditPlayer.js contain the same formatting
 .player-container {
+  //! Change
   position: relative;
   left: 25%;
   top: 200px;
@@ -61,12 +65,15 @@
     top: 5rem;
   }
   .player__form {
+    //! Change
     .player__form-name {
+      //! Change
       display: flex;
       flex-direction: row;
       justify-content: center;
 
       .player__form-labelContainer {
+        //! Change
         display: flex;
         flex-direction: column;
         margin: 0rem 5rem;
@@ -77,6 +84,7 @@
       }
     }
     .player__form-labelContainer-number {
+      //! Change
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -87,6 +95,7 @@
       }
     }
     .player__form-labelContainer {
+      //! Change
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -149,7 +158,9 @@
 
 //? SHOW PAGE - ShowPlayer.js
 .container__single-player {
+  //! Change
   .table__single-player {
+    //! Change
     margin-left: 40%;
     margin-top: 10%;
     th {
