@@ -245,7 +245,9 @@ YOU DON'T NEED TO DO THE STEPS BELOW AS IT IS ALREADY DONE FOR YOU IN THE TEMPLA
     <br>
     }
 
-4.  An important thing to add to the package.json for the client is to add the following:
+4.  Addition of <b>NODE_ENV=production</b> to the .env file
+
+5.  An important thing to add to the package.json for the client is to add the following:
     <br>
     <b>"proxy": "http://localhost:5001"</b>
     <br>
